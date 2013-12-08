@@ -8,3 +8,10 @@ class stack:
         def pop(self):
                 glass.pop(0)
 
+
+
+class queue:
+        def push(self, n):
+                glass.append(n)
+        def pop(self):
+                glass.pop(0)
