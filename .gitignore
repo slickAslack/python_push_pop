@@ -1,9 +1,10 @@
 #python push_pop
 
 glass = []
-def push(n):
-        glass.insert(0,n)
-        
-def pop():
-        glass.pop(0)
+
+class stack:
+        def push(self, n):
+                glass.insert(0,n)
+        def pop(self):
+                glass.pop(0)
 
